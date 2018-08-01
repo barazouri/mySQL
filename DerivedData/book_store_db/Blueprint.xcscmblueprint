@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B282C3AAC18E0031251621C425616319DA4AF31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B282C3AAC18E0031251621C425616319DA4AF31" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DE3B9606-86B4-4EBA-A9E8-A042FF08680C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B282C3AAC18E0031251621C425616319DA4AF31" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "book_store_db",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "book_store_db.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/barazouri\/mySQL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B282C3AAC18E0031251621C425616319DA4AF31"
+    }
+  ]
+}
