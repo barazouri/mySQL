@@ -48,7 +48,7 @@ Database::Database() : driver(get_driver_instance()) {
             stmt->execute("create table if not exists supplier("
                           "supplier_name varchar(50), "
                           "supplier_id varchar(50) primary key, "
-                          "supplier_phone int(50), "
+                          "supplier_phone varchar(50), "
                           "supplier_email varchar(50) "
                           ");");
             
@@ -62,8 +62,8 @@ Database::Database() : driver(get_driver_instance()) {
             
             stmt->execute("create table if not exists purchase("
                           "purchase_id char(50) primary key, "
-                          "amount_to_paid float(7,2), "
-                          "price float(7,2), "
+                          "amount_to_pay float(7,2), "
+                          "amount_paid float(7,2), "
                           "book_ISBN char(50), "
                           "date_purchase date, "
                           "status_purchase ENUM('invited','arrived','massage'), "
@@ -83,6 +83,7 @@ Database::Database() : driver(get_driver_instance()) {
                           "price float(7,2), "
                           "book_ISBN varchar(50), "
                           "date_purchase_record date, "
+                          "foreign key(book_id) references book(id), "
                           "saller_name varchar(50) "
                           ")");
             

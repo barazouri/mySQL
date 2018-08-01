@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/barazouri/Desktop/book_store_db/book_store_db/book.cpp \
-  /Users/barazouri/Desktop/book_store_db/book_store_db/book.hpp \
-  /Users/barazouri/Desktop/book_store_db/book_store_db/Database.hpp \
+  /Users/barazouri/Desktop/all/study/second\ year/semester\ b/data\ base/project/book_store_db/book_store_db/book.cpp \
+  /Users/barazouri/Desktop/all/study/second\ year/semester\ b/data\ base/project/book_store_db/book_store_db/book.hpp \
+  /Users/barazouri/Desktop/all/study/second\ year/semester\ b/data\ base/project/book_store_db/book_store_db/Database.hpp \
   /usr/local/include/mysql_connection.h \
   /usr/local/include/cppconn/connection.h \
   /usr/local/include/cppconn/build_config.h \
