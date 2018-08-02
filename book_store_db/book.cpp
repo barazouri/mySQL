@@ -1327,9 +1327,7 @@ void print_costumer_since_y(const string &date) {
 
 
 //press 18 now/
-void total_purchase_from_supplier_between(string suplier_id, string start_supplier, string end_supplier) {
-    int i = 0;
-    
+void total_purchase_from_supplier_between(string suplier_id, string start_supplier, string end_supplier) {    
     
     Database &db = Database::getInstance();
     Connection *con = db.getConnection();
